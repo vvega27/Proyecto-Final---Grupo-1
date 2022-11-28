@@ -1,0 +1,12 @@
+El nombre del cliente es: Clara
+El primer apellido del cliente es: Madrigal
+El segundo apellido del cliente es: Araya
+La cedula del cliente es: 1111111
+El telefono del cliente es: 222222
+La direccion del cliente es: Alajuela
+El nombre del cliente es: JAJAJA
+El primer apellido del cliente es: ksksks
+El segundo apellido del cliente es: kdkkrkr
+La cedula del cliente es: kkdekmode
+El telefono del cliente es: kmecme
+La direccion del cliente es: kmwe;mce

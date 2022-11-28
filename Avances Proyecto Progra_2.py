@@ -6,12 +6,12 @@
 from turtle import delay
 import time
 
-ListaEmpleados=['Bryan','Valeria','Jafet','Anderson']
+ListaEmpleados=['Bryan','Valeria','Jafet']
 ListaClientes=['Maria Araya','Daniela Blanco','Ronaldo Arias']
 CedulasClientes=['Maria Araya > 117910384','Daniela Blanco > 117910384','Ronaldo Arias > 117910384']
 NumerosClientes=['Maria Araya > 88888888','Daniela Blanco > 88776655','Ronaldo Arias > 88990099']
 NumerosClientes=['Maria Araya > Alajuela','Daniela Blanco > Heredia','Ronaldo Arias > Limon']
-
+ListaProvedores=['Delta','American Airlines']
 print("Bievenido a la agencia de Viajes los Patitos Voladores")
 i=0
 while i<3:
@@ -55,10 +55,10 @@ def menu():
                 "2-Modificar datos de empleados.\n",
                 "3-Ingresar nuevo empleado.\n",
                 "4-Salir al menu principal.\n")
-
-        menu1()
             
         op1= input("Escribe un número y pulsa enter: ")
+
+        menu1()
 
         while op1 != 0:
             
@@ -121,13 +121,13 @@ def menu():
                 print(" Digite el nombre del cliente que desea Agregar: ")
                 AgregarCliente=input()
                 print("El nombre a agregar es el siguiente",AgregarCliente)
-                ListaClientes.append(AgregarClientes)
+                ListaClientes.append(AgregarCliente)
                 print(ListaClientes)
                 print(CedulasClientes)
                 print(" Digite el nombre de la cedula del cliente que desea Agregar: ")
                 AgregarCedulaCliente=input()
                 print("La Cedula a agregar es el siguiente",AgregarCedulaCliente)
-                CedulasClientes.append(AgregarClientes)
+                CedulasClientes.append(AgregarCliente)
                 print(CedulasClientes)
                 return menu()
                 
@@ -157,8 +157,8 @@ def menu():
 
             if op3 == 1:
 
-                print("Los colaboradores actuales son los siguientes")
-                print(ListaClientes)
+                print("Los provedores actuales son los siguientes")
+                print(ListaProvedores)
                 return menu3()
                 
             elif op3== 2:
