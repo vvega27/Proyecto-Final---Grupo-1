@@ -1,0 +1,4 @@
+El nombre del empleado es: Bryannn
+La cedula del empleado es: 119999
+El salario del empleado es: 100000000000000000
+El puesto del empleado es: Presidente

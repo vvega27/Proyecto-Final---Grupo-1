@@ -1,0 +1,7 @@
+Numero de Venta: 1
+Nombre del Comprador: 1
+Nombre del Vendedor: 1
+Fecha: 1
+Metodo de pago: 1
+Producto Adquirido: 1
+Monto total: 1
